@@ -1,0 +1,29 @@
+.header {
+  padding: 24px 56px;
+  margin-bottom: 92px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  background: #302e5a;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 23px;
+  align-items: center;
+}
+.nav-item:nth-child(2) {
+  padding: 11px 31px;
+}
+.nav-bg {
+  background: #302e5a;
+  margin-right: 5px;
+}
