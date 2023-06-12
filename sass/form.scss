@@ -1,0 +1,72 @@
+.form {
+  width: 366px;
+  height: 474px;
+  background: #303a53;
+  padding: 50px 58px;
+  z-index: 2;
+}
+.form-bg {
+  background: #303a53;
+}
+.form-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.red {
+  color: #ff3459;
+  font-weight: 700;
+}
+
+input {
+  width: 248px;
+  height: 51px;
+  background: #272d3d;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 22px;
+}
+input::placeholder {
+  color: #d7d7d7;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+}
+input[type='email'] {
+  margin-bottom: 14px;
+}
+.iti--allow-dropdown {
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+
+.iti--allow-dropdown .iti__flag-container,
+.iti--separate-dial-code .iti__flag-container {
+  right: auto;
+  left: 10px;
+}
+button[type='submit'] {
+  width: 248px;
+  height: 51px;
+  background: #ff3459;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 22px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.click {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 149%;
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+}

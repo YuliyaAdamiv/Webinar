@@ -1,0 +1,31 @@
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.avatar div {
+  margin-left: 20px;
+}
+.avata div {
+  margin-left: 30px;
+  margin-top: 16px;
+}
+.avatar-name {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.blue {
+  color: #4252d1;
+}
+.avatar-text {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 160%;
+  color: #ffffff;
+  max-width: 307px;
+}
