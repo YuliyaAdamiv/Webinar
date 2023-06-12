@@ -446,13 +446,15 @@ body {
     background-image: none; }
 
   .container {
-    margin: 0px auto; }
+    margin: 0 auto;
+    padding: 0px 10px; }
 
   .webinar-bold:nth-child(2) {
     color: #4252d1; }
 
   button[type='submit'] {
-    background: #0048ff; }
+    background: #0048ff;
+    padding: 3px 10px; }
 
   .webinar-title {
     font-weight: 800;
